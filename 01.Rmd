@@ -4,23 +4,20 @@
 
 baby, infant, infant sleep, baby sleep, sleep management, parent-infant sleep
 
-## A beginning.
+## WAAAH!
 
-Conventional wisdom tells soon-to-be new parents to get ready for many restless nights. While there's an increasing number of baby monitors, there lacks products that can help parents intelligently understand and manage their newborn's sleep.    
+Parents are presented today with an ever-increasing number of baby monitors, however, there aren’t any products today that can help parents intelligently understand and manage their newborn's sleep. The Possums Sleep Intervention (PSI) is a new approach to infant sleep problems that is grounded within contextual behavioral science, cued care, and the biology of sleep. The aim is to support the healthful biological regulation of sleep as well as to optimize the infant's sleep efficiency and resilience. (Whittingham&Douglas, 2014)
 
-## A middle.
+## KEEP IT TOGETHER! 
 
-While there are many of parenting books on tactics for helping a baby get to sleep and stay asleep, they largely fall into a paradigm of behavioral sleep interventions that may modestly increase the length of time an infant sleeps at night without signaling. A recent systematic literature review has concluded that while existing behavioral sleep interventions, and parental practices that are modeled on behavioral approaches, have been associated with modest increases in self-settling and in infant sleep duration, they have not been shown to decrease infant crying, to prevent sleep and behavioral problems in later childhood. (Douglas&Hill, 2013) The Possums Sleep Intervention (Whittingham&Douglas, 2014) is a new approach to infant sleep problems that is grounded within contextual behavioral science, cued care, and the biology of sleep. The aim is not to maximize the duration of the infant’s nocturnal sleep but to support the healthful biological regulation of sleep as well as to optimize the infant's sleep efficiency and resilience. 
+With PSI acting as guiding principles, I want to use a suite of technologies (e.g. wearable devices, computer vision, and audio processing) to collect and aggregate data into a cross-platform app and in turn use machine learning to make recommendations to parents aimed at:
 
-To implement the PSI, I want to create a platform that can aggregate data collected from wearable devices, computer vision and audio processing aimed at:
-1) Help parents identify obstacles to healthy regulation of infant Sleep (e.g. disrupted circadian pacemaker, infant feed problems)
-2) Teach new parents that cued-care is a pattern of care characterized by intentionally and sensibly responding to their baby’s cues
+1. Identify obstacles to healthy regulation of infant sleep (e.g. disrupted circadian pacemaker - obtaining sunlight in the morning; feed problems - excessively frequent feeds and associated excessive night-waking in breast-fed babies)
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r infant-sleep,echo=FALSE,fig.cap='[Drowsy But Awake!](http://newmomcomics.com/comic/2016/1/10/drowsy-but-awake)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://static1.squarespace.com/static/56081791e4b0ffbc0fec9a10/t/5692aa28a128e6b30eae6938/1452452422905/?format=1000w')
-```
+2. Reinforce that cued-care is a pattern of care characterized by intentionally and sensibly responding to their baby’s cues. On the other hand, responding to the baby’s cues in a manner that is not what baby intends, with the aim of extinguishing signaling, is not cued care. 
 
-## An end.
+The full list of PSI targeted intervention actions can be found in Whittingham’s paper, while there are many that can be easily checked, there will be technical challenges to recognize baby cues correctly and determine the best response. Fortunately, with the power of machine learning (limited by how much training data is available) coupled with computer vision to analyze baby’s physical cues, a good recommendation can often be approximated with high accuracy to be shared with the new parents. Parents will also have the option to tweak the model by relabeling captured cues to reduce false positive rate.   
 
-The Possums Sleep Intervention was developed from scientific literature. Although it is relatively new, there has been ongoing clinical practice, health practitioner education, and scientific research occurring in tandem, reinforcing and informing each other. Rather than promoting one-way parents enforced and potentially harmful sleep intervention actions, the platform draws from PSI principles to promote flexible, values-driven actions to increase positive reinforcement.
+## ALL IS WELL!
+
+PSI was developed from scientific literature. Rather than promoting one-way parents enforced and potentially harmful sleep intervention actions (e.g. ignore pre-cry or cry cues; decouple sleep from feeds and bodily contact; fit their infant’s sleeping patterns to the average; lists of tired cues without understanding of context), my app aims to fully implement the PSI and provide an intuitive graphical user interface to promote flexible, value-driven actions to increase positive reinforcement.
