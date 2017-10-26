@@ -1,4 +1,4 @@
-# developing an automated and intelligent anti-fraud system for insurance carriers {#smart anti-fraud system}
+# developing an automated and intelligent anti-fraud system for insurance carriers {#insurance fraud identification}
 
 #### Keywords
 
