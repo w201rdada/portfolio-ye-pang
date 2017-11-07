@@ -1,21 +1,21 @@
-# developing an automated and intelligent anti-fraud system for insurance carriers {#insurance fraud identification}
+# Analytical solutions on fraud detection for non-life insurance carriers {#anti-fraud with claims analytics}
 
 #### Keywords
 
-insurance, anti-fraud, fraudulent claims, fraud identification, machine learning
+anti-fraud, fraud detection, claims analytics, claimant fraud, machine learning
 
 ## inadequate rule-based approach
 
-Today, insurance companies have an increasing demand to reduce claim costs from fraudulent claims. While many have turned to IT to develop rule-based systems that can assign fraud scores to claims, these systems, however, often feel inadequate and can have a painstakingly manual, imprecise, and expensive process to create/update the rules and their associative weights when fraud pattern changes. With the help from machine learning and analytics, a rather automated and intelligent system is achievable to combat fraud with minimum human intervention. 
+Today, property & causulty insurance carriers have an increasing demand to reduce claim costs with anti-fraud initiatives across business lines such as auto, property, liability, and worker's compensation. While some still rely on claims adjusters to manually (and actively) make referrals to special investigations unit (SIU) departments, many have turned to IT to develop rule-based systems that can assign fraud scores (i.e., add up all fired rules' weighted scores to see if they are over a threshold) to claims and generate leads for SIU. However, these systems often feel inadequate and can have a painstakingly manual, imprecise, and expensive process to create/update the rules and their associative weights when fraud pattern changes. With the help from data scientists, there are in fact more automated and intelligent approaches to generate these leads more reliably to SIU without overtaxing claims adjusters or huge IT budgets.   
 
 ## smarter approach with data science
+
+When a large number of rules (usually in the thousands) are involved, it is impractical and next to impossible for a human to know what is the “correct” weight to use for each of the rules. Subjective manual adjustments made to “tweak” the overall score are usually biased and suboptimal. However, if the problem is linearly solvable, (i.e., a plane exists to separate the fraudulent from non-fraudulent claims), an algorithm called “perceptron” would in fact be more suitable to optimize the weights in an automated and statistically sound way. Regularization can also be applied during optimization to ensure that impactful rules receive more weights and trivial/outdated rules can be easily found and corrected. In practice, fraud detection is likely a non-linear problem, machine learning models like the support vector machine, random forest, combined with deep learning and natural language processing can further explore higher order of interactions among the rules and the free-form text based claim notes to boost fraud detection. 
 
 There are a couple ways data science can improve on the rule-based approach: 
 1.	Optimize rule weights automatically to maximize a KPI (e.g., F1 Score)
 2.	Use regularization to identify weak/out of date rules 
 3.	Explore the use of non-linear models (e.g., SVM, Deep Learning)
-
-When a large number of rules (usually in the thousands) are involved, it is impractical and next to impossible for a human to know what is the “correct” weight to use for each of the rules. Subjective manual adjustments made to “tweak” the overall score are usually biased and suboptimal. However, if the problem is linearly solvable, (i.e., a plane exists to separate the fraudulent from non-fraudulent claims), an algorithm called “perceptron” would in fact be more suitable to optimize the weights in an automated and statistically sound way. Regularization can also be applied during optimization to ensure that impactful rules receive more weights and trivial/outdated rules can be easily found and corrected. In practice, fraud detection is likely a non-linear problem, machine learning models like the support vector machine, random forest, combined with deep learning and natural language processing can further explore higher order of interactions among the rules and the free-form text based claim notes to boost fraud detection. 
 
 ## automated and actionable    
 
