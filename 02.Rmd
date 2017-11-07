@@ -1,8 +1,8 @@
-# Analytical solutions on fraud detection for non-life insurance carriers {#anti-fraud with claims analytics}
+# Applying machine learning to non-life insurance fraud detection {#anti-fraud}
 
 #### Keywords
 
-anti-fraud, fraud detection, claims analytics, claimant fraud, machine learning
+insurance, fraud detection, SIU, claims analytics, claimant fraud, machine learning
 
 ## inadequate rule-based approach
 
