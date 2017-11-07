@@ -1,4 +1,4 @@
-# Applying machine learning to non-life insurance fraud detection {#anti-fraud}
+# Data Science Driven Approaches To Non-life Insurance Fraud Detection {#anti-fraud}
 
 #### Keywords
 
