@@ -29,11 +29,12 @@ knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ
 
 ### Abstract of my first cool idea
 
+Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the PSI - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter "SleepBaby!", which automatically identifies these cues and suggest actions to take. 
 
 
 ### Abstract of my second cool idea
 
-Rule based fraud detection systems are expensive, tedious, and ultimately of little use. Data science offers alternative solutions that are more intelligent, cheaper, and faster to execute.
+Rule based fraud detection systems are expensive, tedious, and ultimately of little use. Enter "FraudZoom", which leverages data science and offers alternative solutions that are more intelligent, cheaper, and faster to execute.
   
 
 ## About the author
