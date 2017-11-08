@@ -29,7 +29,7 @@ knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ
 
 ### Optimize Baby Sleep
 
-Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the PSI - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter "SleepBaby!", which automatically identifies these cues and suggest actions to take. 
+Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the Possum's Sleep Intervention - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter "SleepBaby!", which automatically identifies these cues and suggest actions to take. 
 
 
 ### Insurance Fraud Detection
