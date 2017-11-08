@@ -27,18 +27,18 @@ Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland 
 knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
 ```
 
-### Abstract of my first cool idea
+### Optimize Baby Sleep
 
 Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the PSI - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter "SleepBaby!", which automatically identifies these cues and suggest actions to take. 
 
 
-### Abstract of my second cool idea
+### Insurance Fraud Detection
 
 Rule based fraud detection systems are expensive, tedious, and ultimately of little use. Enter "FraudZoom", which leverages data science and offers alternative solutions that are more intelligent, cheaper, and faster to execute.
   
 
 ## About the author
 
-Sustainable aute  gochujang, messenger bag vero dolor  blog pork belly knausgaard.  Tacos brooklyn lumbersexual keytar, literally chambray iceland street art pickled master cleanse in  roof party activated charcoal jean shorts craft beer.  Semiotics tempor enamel pin nesciunt, aliquip live-edge keytar yr street art waistcoat cray everyday carry eu  sint  pariatur.  Aliquip anim  godard leggings, flexitarian direct trade  humblebrag.  Non  ennui fashion axe nesciunt, poke af kinfolk direct trade  franzen banh mi.  Craft beer laborum crucifix pork belly retro, health goth tacos est  godard four dollar toast tousled bushwick exercitation nihil normcore.  Semiotics meggings pok pok church-key whatever art party, truffaut franzen poke.
+Kevin is a data scientist working on claimas analytics at QBE Insurance Group. 
 
 *Updated: `r Sys.Date()`*
