@@ -12,7 +12,7 @@ library(magrittr)
 ```
 
 
-# Welcome!
+# Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
 ```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
@@ -27,16 +27,16 @@ Add Video...
 knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
 ```
 
-### Optimize Baby Sleep
+### Optimize Baby Sleep {-}
 
 Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the Possum's Sleep Intervention - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter "SleepBaby!", which automatically identifies these cues and suggest actions to take. 
 
 
-### Intelligent Insurance Fraud Detection
+### Intelligent Insurance Fraud Detection {-}
 
 The insurnace indsutry has traditionally relied on special investigation units (SIU) and "red flags" to combat fraud. However, these rule based detection systems are extremely delicate and difficult to maintain. Even with very costly experts paid to tune and keep these systems up-to-date, there remain both human errors and subjective biases that could lead to underperformance and ultimately impact bottom line results. Enter "FraudZoom", which leverages data science and offers alternative ways to detect insurance fraud that are more intelligent, cheaper, and faster to execute.
   
-## About Me
+## About Me {-}
 
 Kevin is a data scientist at QBE Insurance Group working on claims analytics. He's also curently pursuing a graduate degree from UC Berkeley's MIDS program. In his spare time, Kevin likes to experiment with technology and try new things.
 
