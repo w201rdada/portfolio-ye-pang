@@ -9,11 +9,10 @@ bookdown::gitbook:
       collapse: section
       scroll_highlight: yes
       before: |
-        <li><a href="./">W201.05</a></li>
+        <li>W201.05 Portfolio</li>
       after: |
         <li><a href="https://github.com/ye-pang" target="blank">GitHub</a></li>
-        <li><a href="https://www.ischool.berkeley.edu/people/ye-pangr" target="blank">UC Berkeley</a></li>
-        <li><a href="https://www.linkedin.com/in/pangye/" target="blank">LinkedIn</a></li>
+        <li><a href="https://www.ischool.berkeley.edu/people/ye-pang" target="blank">UC Berkeley</a></li>
     sharing:
       #facebook: no
       #twitter: no
