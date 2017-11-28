@@ -40,4 +40,6 @@ The insurnace indsutry has traditionally relied on special investigation units (
 
 Kevin is a data scientist at QBE Insurance Group working on claims analytics. He's also curently pursuing a graduate degree from UC Berkeley's MIDS program. In his spare time, Kevin likes to experiment with technology and try new things.
 
+test test test
+
 *Updated: `r Sys.Date()`*
