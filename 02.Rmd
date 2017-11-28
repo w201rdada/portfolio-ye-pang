@@ -4,11 +4,11 @@
 
 insurance, fraud detection, SIU, claims analytics, claimant fraud, machine learning
 
-## inadequate rule-based approach
+## pitfalls of rules engine
 
 Today, property & causulty insurance carriers have an increasing demand to reduce claim costs (through loss avoidance) with anti-fraud initiatives across business lines (e.g., auto, property, liability, and worker's compensation). While smaller insurers mostly rely on claims adjusters to manually (but proactively) make referrals to special investigations unit (SIU) departments, larger insurers have turned to IT to develop rule-based systems that can assign fraud scores (i.e., add up all fired rules' weighted scores to see if they are over a threshold) to claims and generate leads for SIU. However, these systems often feel inadequate and can have an overly manual, imprecise, and expensive process to create/update the rules and their associative weights when fraud pattern changes. With the help from data scientists, there are in fact more automated and intelligent approaches to generate these leads to SIU more reliably without overtaxing claims adjusters or having huge IT budgets.   
 
-## smarter approach with data science
+## data science driven
 
 When a large number of rules (usually in the thousands) are involved, it is next to impossible for a human to know what is the “correct” weight to use for each of the rules. Subjective manual adjustments made to “tweak” the overall score are usually biased and suboptimal. There are in fact a couple ways data science can improve on the rule-based approach: 
 
