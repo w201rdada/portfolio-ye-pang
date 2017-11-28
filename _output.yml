@@ -9,7 +9,7 @@ bookdown::gitbook:
       collapse: section
       scroll_highlight: yes
       before: |
-        <li>W201.05 RDADA</li>
+        <li><a href="./" target="blank">W201 RDADA</a></li>
       after: |
         <li><a href="https://github.com/ye-pang" target="blank">GitHub</a></li>
         <li><a href="https://www.ischool.berkeley.edu/people/ye-pang" target="blank">UC Berkeley</a></li>
