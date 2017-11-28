@@ -1,5 +1,5 @@
 ---
-title: "W201 Portfolio"
+title: "W201.05 Portfolio"
 author: "Kevin Pang"
 date: "MIDS Fall 2017"
 site: bookdown::bookdown_site
@@ -16,7 +16,7 @@ library(magrittr)
 
 <!-- You can include images saved within your repo... -->
 ```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
+#knitr::include_graphics('img/hello-world.png')
 ```
 
 Add Video... 
