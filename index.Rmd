@@ -21,11 +21,10 @@ This site contains my portfolio projects from "Research Design and Applications 
 #knitr::include_graphics('img/hello-world.png')
 ```
 
-Add Video... 
-
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Vote For SleepBaby!',fig.align='center'}
+
+```{r echo=FALSE,fig.cap='Vote For SleepBaby!',fig.align='center'}
 knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
 ```
 
