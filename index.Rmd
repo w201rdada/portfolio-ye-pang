@@ -34,10 +34,10 @@ Parents have trouble managing newborns’ sleep patterns. There are existing res
 
 ### Intelligent Insurance Fraud Detection
 
-The insurnace indsutry has traditionally relied on special investigation units (SIU) and "red flags" to combat fraud. However, these rule based detection systems are extremely delicate and difficult to maintain. Even with very costly experts paid to "adjust and tune" these systems and keep them up-to-date, there remain both human errors and subjective biases that could lead to underperformance and negatively impact business results. Enter "FraudZoom", which leverages data science and offers alternative ways to detect insurance fraud that are more intelligent, cheaper, and faster to execute.
+The insurnace indsutry has traditionally relied on special investigation units (SIU) and "red flags" to combat fraud. However, these rule based detection systems are extremely delicate and difficult to maintain. Even with very costly experts paid to tune and keep these systems up-to-date, there remain both human errors and subjective biases that could lead to underperformance and ultimately impact bottom line results. Enter "FraudZoom", which leverages data science and offers alternative ways to detect insurance fraud that are more intelligent, cheaper, and faster to execute.
   
 ## About the author
 
-Kevin is a data scientist at QBE Insurance Group working on claims analytics. He's also curently pursuing a graduate degree from UC Berkeley's MIDS program. In his spare time, Kevin likes to experiment with technology and try new things.    
+Kevin is a data scientist at QBE Insurance Group working on claims analytics. He's also curently pursuing a graduate degree from UC Berkeley's MIDS program. In his spare time, Kevin likes to experiment with technology and try new things.
 
 *Updated: `r Sys.Date()`*
