@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="sleepbaby.html">
 
-<link rel="next" href="sleepbaby.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -98,37 +98,28 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">W201.05 Portfolio</h1>
-<h4 class="author"><em>Kevin Pang</em></h4>
-<h4 class="date"><em>MIDS Fall 2017</em></h4>
+<div id="fraudzoom" class="section level1">
+<h1><span class="header-section-number">2</span> FraudZoom</h1>
+<div id="keywords-1" class="section level4">
+<h4><span class="header-section-number">2.0.0.1</span> Keywords</h4>
+<p>insurance, fraud detection, SIU, claims analytics, claimant fraud, machine learning</p>
 </div>
-<div id="welcome" class="section level1 unnumbered">
-<h1>Welcome!</h1>
-<p>This site contains my portfolio projects from “Research Design and Applications for Data and Analysis” class as part of the UC Berkeley MIDS program. Currently, this involves only conceptual ideas, with more updates to come.</p>
-<!-- You can include images saved within your repo... -->
-<p>Add Video…</p>
-<!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
-<p>
-<div class="figure" style="text-align: center"><span id="fig:hello-benji"></span>
-<iframe src="https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview" width="672" height="400px">
-</iframe>
-<p class="caption">
-Figure .: Vote For SleepBaby!
-</p>
+<div id="pitfalls-of-rules-engine" class="section level2">
+<h2><span class="header-section-number">2.1</span> pitfalls of rules engine</h2>
+<p>Today, property &amp; causulty insurance carriers have an increasing demand to reduce claim costs (through loss avoidance) with anti-fraud initiatives across business lines (e.g., auto, property, liability, and worker’s compensation). While smaller insurers mostly rely on claims adjusters to manually (but proactively) make referrals to special investigations unit (SIU) departments, larger insurers have turned to IT to develop rule-based systems that can assign fraud scores (i.e., add up all fired rules’ weighted scores to see if they are over a threshold) to claims and generate leads for SIU. However, these systems often feel inadequate and can have an overly manual, imprecise, and expensive process to create/update the rules and their associative weights when fraud pattern changes. With the help from data scientists, there are in fact more automated and intelligent approaches to generate these leads to SIU more reliably without overtaxing claims adjusters or having huge IT budgets.</p>
 </div>
-<div id="optimize-baby-sleep" class="section level3 unnumbered">
-<h3>Optimize Baby Sleep</h3>
-<p>Parents have trouble managing newborns’ sleep patterns. There are existing resources - such as the Possum’s Sleep Intervention - to help parents diagnose these cues and take action, but most new parents aren’t familiar with the PSI. Enter “SleepBaby!”, which automatically identifies these cues and suggest actions to take.</p>
+<div id="data-science-driven" class="section level2">
+<h2><span class="header-section-number">2.2</span> data science driven</h2>
+<p>When a large number of rules (usually in the thousands) are involved, it is next to impossible for a human to know what is the “correct” weight to use for each of the rules. Subjective manual adjustments made to “tweak” the overall score are usually biased and suboptimal. There are in fact a couple ways data science can improve on the rule-based approach:</p>
+<ol style="list-style-type: decimal">
+<li><p>If the problem is linearly solvable, (i.e., plane exists to separate the fraudulent from non-fraudulent claims), an algorithm called “perceptron” can be used to optimize the rule weights automatically to maximize a choice of statistical measure (e.g., Recall, Precision, or F1)</p></li>
+<li><p>Regularization can also be applied during optimization to ensure that impactful rules receive more weights and trivial/outdated rules can be easily found and corrected.</p></li>
+<li><p>In practice, fraud detection is likely a non-linear problem, machine learning models like the support vector machine, random forest, combined with deep learning and natural language processing can better explore interactions among the rules and analyzing text based claim notes to boost fraud detection.</p></li>
+</ol>
 </div>
-<div id="intelligent-insurance-fraud-detection" class="section level3 unnumbered">
-<h3>Intelligent Insurance Fraud Detection</h3>
-<p>The insurnace indsutry has traditionally relied on special investigation units (SIU) and “red flags” to combat fraud. However, these rule based detection systems are extremely delicate and difficult to maintain. Even with very costly experts paid to tune and keep these systems up-to-date, there remain both human errors and subjective biases that could lead to underperformance and ultimately impact bottom line results. Enter “FraudZoom”, which leverages data science and offers alternative ways to detect insurance fraud that are more intelligent, cheaper, and faster to execute.</p>
-</div>
-<div id="about-me" class="section level2 unnumbered">
-<h2>About Me</h2>
-<p>Kevin is a data scientist at QBE Insurance Group working on claims analytics. He’s also curently pursuing a graduate degree from UC Berkeley’s MIDS program. In his spare time, Kevin likes to experiment with technology and try new things.</p>
-<p><em>Updated: 2017-11-28</em></p>
+<div id="intelligent-fraud-detection" class="section level2">
+<h2><span class="header-section-number">2.3</span> intelligent fraud detection</h2>
+<p>Anti-fraud is generally a challenging area for data scientists. Not only the predictions need to be accurate but also they have to be interpretable and/or actionable. While rules based systems can break down a fraud score to triggered rules, it can be difficult to explain intuitively what a non-linear model does. Nonetheless, machine learning (ML) models often gain a non-trivial boost in prediction performance, and proper reason codes and visulizaitons can be created to support a prediction. More importantly, instead of second-guessing the scores coming out of a rule based system, those energies can be rechanneled to focus on handling of fraudulent claims such as evidence preparation and have proper preventative/remedial actions taken. It also makes more sense to make the SIU referral process more adaptive and robust while taking some pressure off claim ajusters and/or any labor-intensive manual process to tweak the rule-based systems.</p>
 
 </div>
 </div>
@@ -137,8 +128,8 @@ Figure .: Vote For SleepBaby!
           </div>
         </div>
       </div>
+<a href="sleepbaby.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="sleepbaby.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -158,7 +149,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/w201rdada/portfolio-ye-pang/edit/master/index.Rmd",
+"link": "https://github.com/w201rdada/portfolio-ye-pang/edit/master/02.Rmd",
 "text": "Edit"
 },
 "download": null,
