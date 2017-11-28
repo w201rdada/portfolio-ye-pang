@@ -14,7 +14,7 @@ library(magrittr)
 
 # Welcome! {-}
 
-This site contains my portfolio of projects from "Research Design and Applications for Data and Analysis" as part of the UC Berkeley MIDS program. Currently, this involves some conceptual data science problems, with more updates to come that include implementation.
+This site contains my portfolio projects from "Research Design and Applications for Data and Analysis" class as part of the UC Berkeley MIDS program. Currently, this involves only conceptual ideas, with more updates to come. 
 
 <!-- You can include images saved within your repo... -->
 ```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
